@@ -1,0 +1,3 @@
+debian/tmp/usr/share/plymouth/themes/bgrt
+debian/tmp/usr/share/plymouth/themes/spinner
+debian/tmp/usr/lib/x86_64-linux-gnu/plymouth/two-step.so

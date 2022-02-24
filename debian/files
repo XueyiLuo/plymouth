@@ -1,0 +1,17 @@
+libplymouth-dev_0.9.4git20200323-0ubuntu6.2_amd64.deb libdevel optional
+libplymouth5-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+libplymouth5_0.9.4git20200323-0ubuntu6.2_amd64.deb libs optional
+plymouth-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-label-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-label_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth-theme-spinner-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-theme-spinner_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth-theme-ubuntu-logo_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth-theme-ubuntu-text-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-theme-ubuntu-text_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth-themes-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-themes_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth-x11-dbgsym_0.9.4git20200323-0ubuntu6.2_amd64.ddeb debug optional automatic=yes
+plymouth-x11_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional
+plymouth_0.9.4git20200323-0ubuntu6.2_amd64.buildinfo misc optional
+plymouth_0.9.4git20200323-0ubuntu6.2_amd64.deb misc optional

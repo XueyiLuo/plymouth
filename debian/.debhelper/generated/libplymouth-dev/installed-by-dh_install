@@ -1,0 +1,10 @@
+debian/tmp/usr/include
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-boot-client.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-splash-core.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-splash-graphics.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libply.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-boot-client.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-splash-core.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libply-splash-graphics.so
+debian/tmp/usr/lib/x86_64-linux-gnu/libply.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig

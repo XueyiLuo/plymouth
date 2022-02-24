@@ -1,0 +1,3 @@
+     ../src/plugins/splash/two-step/plugin.c \
+     ../themes/bgrt/bgrt.plymouth.in.h \
+     ../themes/spinner/spinner.plymouth.in.h

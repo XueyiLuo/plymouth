@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.29), libplymouth5 (>= 0.9.4git20200109)
+misc:Depends=
+misc:Pre-Depends=

@@ -1,0 +1,7 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/plymouth/fade-throbber.so
+debian/tmp/usr/lib/x86_64-linux-gnu/plymouth/space-flares.so
+debian/tmp/usr/share/plymouth/themes/fade-in
+debian/tmp/usr/share/plymouth/themes/glow
+debian/tmp/usr/share/plymouth/themes/script
+debian/tmp/usr/share/plymouth/themes/solar
+debian/tmp/usr/share/plymouth/themes/spinfinity

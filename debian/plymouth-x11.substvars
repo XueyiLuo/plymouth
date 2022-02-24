@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.4), libplymouth5 (>= 0.9.3)
+misc:Depends=
+misc:Pre-Depends=
