@@ -455,6 +455,13 @@ static script_return_t sprite_window_set_background_bottom_color (script_state_t
         return script_return_obj_null ();
 }
 
+static script_return_t set_index (script_state_t *state,
+                                                void           *user_data)
+{
+        ply_trace("set index");
+        return script_return_obj_null ();
+}
+
 static void script_lib_draw_brackground (ply_pixel_buffer_t *pixel_buffer,
                                          ply_rectangle_t *clip_area,
                                          script_lib_sprite_data_t *data)
@@ -724,6 +731,15 @@ script_lib_sprite_data_t *script_lib_sprite_setup (script_state_t *state,
                                     "blue",
                                     NULL);
         script_obj_unref (window_hash);
+
+        script_obj_t *Picture_hash = script_obj_hash_get_element (state->global, "Picture");
+        script_add_native_function (window_hash,
+                                    "SetIndex",
+                                    set_index,
+                                    data,
+                                    "index",
+                                    NULL);
+        script_obj_unref (Picture_hash);
 
         data->script_main_op = script_parse_string (script_lib_sprite_string, "script-lib-sprite.script");
         data->background_color_start = 0x000000;
