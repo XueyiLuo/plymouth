@@ -12,5 +12,5 @@ Replaces: plymouth-dbg (<< 0.9.2-4~)
 Section: debug
 Priority: optional
 Description: debug symbols for plymouth-label
-Build-Ids: b6e852f8bf4e15d3d0954cd5d5e3f50e5febc01b
+Build-Ids: 85a5169b0b51ea9691e60bcabfd19550b760cf0a
 Original-Maintainer: Laurent Bigonville <bigon@debian.org>

@@ -12,5 +12,5 @@ Replaces: plymouth-dbg (<< 0.9.2-4~)
 Section: debug
 Priority: optional
 Description: debug symbols for plymouth-theme-spinner
-Build-Ids: ff0ef2f7ae5510911540e4598ac80e0ff51d0838
+Build-Ids: 329be39f7ee1464b6cf4ad52ee65fc81e3a167ff
 Original-Maintainer: Laurent Bigonville <bigon@debian.org>

@@ -26,6 +26,7 @@
 #include "ply-pixel-display.h"
 #include "ply-renderer.h"
 #include "ply-text-display.h"
+#include "ply-boot-splash-plugin.h"
 
 typedef enum
 {
@@ -42,6 +43,7 @@ typedef void (* ply_pixel_display_added_handler_t) (void *, ply_pixel_display_t 
 typedef void (* ply_pixel_display_removed_handler_t) (void *, ply_pixel_display_t *);
 typedef void (* ply_text_display_added_handler_t) (void *, ply_text_display_t *);
 typedef void (* ply_text_display_removed_handler_t) (void *, ply_text_display_t *);
+typedef ply_boot_splash_mode_t (* ply_check_mode_handler_t) (void *);
 
 #ifndef PLY_HIDE_FUNCTION_DECLARATIONS
 ply_device_manager_t *ply_device_manager_new (const char                *default_tty,
@@ -54,6 +56,7 @@ void ply_device_manager_watch_devices (ply_device_manager_t                *mana
                                        ply_pixel_display_removed_handler_t  pixel_display_removed_handler,
                                        ply_text_display_added_handler_t     text_display_added_handler,
                                        ply_text_display_removed_handler_t   text_display_removed_handler,
+                                       ply_check_mode_handler_t             check_mode_handler,
                                        void                                *data);
 void ply_device_manager_pause (ply_device_manager_t *manager);
 void ply_device_manager_unpause (ply_device_manager_t *manager);

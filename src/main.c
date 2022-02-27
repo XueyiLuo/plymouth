@@ -1120,6 +1120,14 @@ on_text_display_removed (state_t            *state,
         ply_boot_splash_remove_text_display (state->boot_splash, display);
 }
 
+static ply_boot_splash_mode_t
+on_check_mode (state_t            *state)
+{
+        if (! state->mode)
+                return;
+        return state->mode;
+}
+
 static void
 load_devices (state_t                   *state,
               ply_device_manager_flags_t flags)
@@ -1141,6 +1149,8 @@ load_devices (state_t                   *state,
                                           on_text_display_added,
                                           (ply_text_display_removed_handler_t)
                                           on_text_display_removed,
+                                          (ply_check_mode_handler_t)
+                                          on_check_mode,
                                           state);
 
         if (ply_device_manager_has_serial_consoles (state->device_manager)) {

@@ -74,6 +74,7 @@ struct _ply_device_manager
         ply_pixel_display_removed_handler_t  pixel_display_removed_handler;
         ply_text_display_added_handler_t     text_display_added_handler;
         ply_text_display_removed_handler_t   text_display_removed_handler;
+        ply_check_mode_handler_t             check_mode_handler;
         void                                *event_handler_data;
 
         uint32_t                    local_console_managed : 1;
@@ -332,6 +333,15 @@ create_devices_for_subsystem (ply_device_manager_t *manager,
                    strcmp (subsystem, SUBSYSTEM_FRAME_BUFFER) == 0 ?
                    "frame buffer" :
                    subsystem);
+        //check mode
+        ply_boot_splash_mode_t ver_mod;
+        if (manager->check_mode_handler(manager->event_handler_data) == PLY_BOOT_SPLASH_MODE_BOOT_UP) {
+                ply_trace("mode: boot-up");
+                return found_device;
+        } else {
+                ply_trace("mode is not boot-up!");
+                return found_device;
+        }
 
         matches = udev_enumerate_new (manager->udev_context);
         udev_enumerate_add_match_subsystem (matches, subsystem);
@@ -937,6 +947,7 @@ ply_device_manager_watch_devices (ply_device_manager_t                *manager,
                                   ply_pixel_display_removed_handler_t  pixel_display_removed_handler,
                                   ply_text_display_added_handler_t     text_display_added_handler,
                                   ply_text_display_removed_handler_t   text_display_removed_handler,
+                                  ply_check_mode_handler_t             check_mode_handler,
                                   void                                *data)
 {
         bool done_with_initial_devices_setup;
@@ -947,6 +958,7 @@ ply_device_manager_watch_devices (ply_device_manager_t                *manager,
         manager->pixel_display_removed_handler = pixel_display_removed_handler;
         manager->text_display_added_handler = text_display_added_handler;
         manager->text_display_removed_handler = text_display_removed_handler;
+        manager->check_mode_handler = check_mode_handler;
         manager->event_handler_data = data;
 
         /* Try to create devices for each serial device right away, if possible

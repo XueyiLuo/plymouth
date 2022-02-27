@@ -270,6 +270,8 @@ case $basic_machine in
 	| mips | mipsbe | mipseb | mipsel | mipsle \
 	| mips16 \
 	| mips64 | mips64el \
+	| loongarch64 \
+	| sw_64 | sw_64sw2 | sw_64sw6 \
 	| mips64octeon | mips64octeonel \
 	| mips64orion | mips64orionel \
 	| mips64r5900 | mips64r5900el \
@@ -397,6 +399,8 @@ case $basic_machine in
 	| mips-* | mipsbe-* | mipseb-* | mipsel-* | mipsle-* \
 	| mips16-* \
 	| mips64-* | mips64el-* \
+	| loongarch64-* \
+	| sw_64-* | sw_64sw2-* | sw_64sw6-* \
 	| mips64octeon-* | mips64octeonel-* \
 	| mips64orion-* | mips64orionel-* \
 	| mips64r5900-* | mips64r5900el-* \

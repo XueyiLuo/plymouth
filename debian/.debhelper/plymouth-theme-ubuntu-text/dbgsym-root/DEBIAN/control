@@ -12,5 +12,5 @@ Replaces: plymouth-dbg (<< 0.9.2-4~)
 Section: debug
 Priority: optional
 Description: debug symbols for plymouth-theme-ubuntu-text
-Build-Ids: e3baf4b2f160a8088ee9c10a443d5b53d22a700d
+Build-Ids: 76b507309f47dfad99428df2b9efbf9ce8f57b92
 Original-Maintainer: Laurent Bigonville <bigon@debian.org>

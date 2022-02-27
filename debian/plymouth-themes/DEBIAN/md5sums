@@ -1,5 +1,5 @@
-ca6042b642baa3299f3fee0bb91555a9  usr/lib/x86_64-linux-gnu/plymouth/fade-throbber.so
-72fc05deda05fa85d63a2ff4eb047be2  usr/lib/x86_64-linux-gnu/plymouth/space-flares.so
+8ac4102becc16cc9d42c279ee6108cf3  usr/lib/x86_64-linux-gnu/plymouth/fade-throbber.so
+3256fd843c5247a9c41e8436c2a2b35b  usr/lib/x86_64-linux-gnu/plymouth/space-flares.so
 ee6d278e3f6b82600cb97f51b8f38ee5  usr/share/doc/plymouth-themes/changelog.Debian.gz
 fac32bda1cab0ce9d7cc74a97852d80e  usr/share/doc/plymouth-themes/copyright
 35996d2498a121824d7d435146e3724b  usr/share/plymouth/themes/fade-in/bullet.png

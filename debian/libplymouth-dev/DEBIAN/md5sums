@@ -2,7 +2,7 @@ df0ad71c608e79f08409496f2b7c267f  usr/include/plymouth-1/ply-boot-client/ply-boo
 cdf4f787b5c9047ab5f65499ecec9f9b  usr/include/plymouth-1/ply-boot-client/ply-boot-protocol.h
 5dd7aa01f1367a62d72e3c3cd4bd4a03  usr/include/plymouth-1/ply-splash-core/ply-boot-splash-plugin.h
 db6931cb3a133091c62710e4115f81ae  usr/include/plymouth-1/ply-splash-core/ply-boot-splash.h
-942e25d3ee0d2393d276d7634464fd91  usr/include/plymouth-1/ply-splash-core/ply-device-manager.h
+6fb8fa93e2b15e987569c22b64e97e97  usr/include/plymouth-1/ply-splash-core/ply-device-manager.h
 54c9674d68616efd50d8e5a8419bc99d  usr/include/plymouth-1/ply-splash-core/ply-keyboard.h
 e7b99c054f171954e89a91feb5c92dca  usr/include/plymouth-1/ply-splash-core/ply-pixel-buffer.h
 0ababa513c44e71b7fabd8a1dfff387b  usr/include/plymouth-1/ply-splash-core/ply-pixel-display.h
@@ -40,7 +40,7 @@ ef92aaa0f8d1a88b39a30f52f407a452  usr/include/plymouth-1/ply/ply-terminal-sessio
 55cb9a95b0121527e3fdb6be73208e7b  usr/include/plymouth-1/ply/ply-trigger.h
 d62a46547b8d16dcb2dcf8889b079057  usr/include/plymouth-1/ply/ply-utils.h
 92d8b14141e78b62bf88fb690c2816e6  usr/lib/x86_64-linux-gnu/libply-boot-client.a
-afebdb4df295c8597e8a90319f550e1a  usr/lib/x86_64-linux-gnu/libply-splash-core.a
+f004bf3ff23f783762794200c1d804c3  usr/lib/x86_64-linux-gnu/libply-splash-core.a
 6f968309202691d6e0995309bd48c2a6  usr/lib/x86_64-linux-gnu/libply-splash-graphics.a
 d22d96f543575b95d9b5527209719978  usr/lib/x86_64-linux-gnu/libply.a
 2719ec9528d0e5dba4e3d8d56f147122  usr/lib/x86_64-linux-gnu/pkgconfig/ply-boot-client.pc
