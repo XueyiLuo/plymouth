@@ -188,7 +188,7 @@ func_exec_program ()
 
   if test -f "$progdir/$program"; then
     # Add our own library path to LD_LIBRARY_PATH
-    LD_LIBRARY_PATH="/home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/src/libply/.libs:/home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/src/libply-splash-core/.libs:$LD_LIBRARY_PATH"
+    LD_LIBRARY_PATH="/home/lxy/plymouth/boot_shutdown/plymouth/src/libply/.libs:/home/lxy/plymouth/boot_shutdown/plymouth/src/libply-splash-core/.libs:$LD_LIBRARY_PATH"
 
     # Some systems cannot cope with colon-terminated LD_LIBRARY_PATH
     # The second colon is a workaround for a bug in BeOS R4 sed

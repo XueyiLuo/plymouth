@@ -12,5 +12,5 @@ Replaces: plymouth-dbg (<< 0.9.2-4~)
 Section: debug
 Priority: optional
 Description: debug symbols for plymouth-x11
-Build-Ids: 8350856ddca7f99cde4b3b09c96826b68e01f948
+Build-Ids: 384ff6910d6e87b19dc3c149d8848e63f72a0729
 Original-Maintainer: Laurent Bigonville <bigon@debian.org>

@@ -17,7 +17,7 @@ old_library='text.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/src/libply-splash-core/libply-splash-core.la -ludev /home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/src/libply/libply.la -lm -lrt -ldl'
+dependency_libs=' /home/lxy/plymouth/boot_shutdown/plymouth/src/libply-splash-core/libply-splash-core.la -ludev /home/lxy/plymouth/boot_shutdown/plymouth/src/libply/libply.la -lm -lrt -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -39,4 +39,4 @@ dlpreopen=''
 
 # Directory that this library needs to be installed in:
 libdir='/usr/lib/x86_64-linux-gnu/plymouth'
-relink_command="(cd /home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/src/plugins/splash/text; /bin/bash \"/home/lxy/lxy/plymouth/plymouth-0.9.4git20200323/libtool\"  --tag CC --mode=relink gcc -Wall -Wno-sign-compare -Wno-deprecated-declarations -DPLYMOUTH_BACKGROUND_COLOR=0x2c001e -DPLYMOUTH_BACKGROUND_END_COLOR=0x2c001e -DPLYMOUTH_BACKGROUND_START_COLOR=0x2c001e -g -O2 -fdebug-prefix-map=/home/lxy/lxy/plymouth/plymouth-0.9.4git20200323=. -fstack-protector-strong -Wformat -Werror=format-security -module -avoid-version -export-dynamic -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,defs -Wl,--as-needed -Wl,-O1 -o text.la -rpath /usr/lib/x86_64-linux-gnu/plymouth text_la-plugin.lo -lm -lrt -ldl ../../../libply/libply.la ../../../libply-splash-core/libply-splash-core.la @inst_prefix_dir@)"
+relink_command="(cd /home/lxy/plymouth/boot_shutdown/plymouth/src/plugins/splash/text; /bin/bash \"/home/lxy/plymouth/boot_shutdown/plymouth/libtool\"  --tag CC --mode=relink gcc -Wall -Wextra -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wwrite-strings -Wnested-externs -Wpointer-arith -Wswitch-enum -Wstrict-aliasing=2 -Winit-self -Wunsafe-loop-optimizations -Wno-missing-field-initializers -Wno-unused-parameter -Wno-unused-result -Wno-cast-function-type -Wcast-align -Wsign-compare -Wp,-D_FORTIFY_SOURCE=2 -DPLYMOUTH_BACKGROUND_COLOR=0x2c001e -DPLYMOUTH_BACKGROUND_END_COLOR=0x2c001e -DPLYMOUTH_BACKGROUND_START_COLOR=0x2c001e -g -O2 -fdebug-prefix-map=/home/lxy/plymouth/boot_shutdown/plymouth=. -fstack-protector-strong -Wformat -Werror=format-security -module -avoid-version -export-dynamic -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,defs -Wl,--as-needed -Wl,-O1 -o text.la -rpath /usr/lib/x86_64-linux-gnu/plymouth text_la-plugin.lo -lm -lrt -ldl ../../../libply/libply.la ../../../libply-splash-core/libply-splash-core.la @inst_prefix_dir@)"
