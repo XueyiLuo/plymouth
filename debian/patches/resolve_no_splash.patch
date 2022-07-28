@@ -1,0 +1,22 @@
+Index: plymouth-0.9.4git20200323/src/libply-splash-core/ply-device-manager.c
+===================================================================
+--- plymouth-0.9.4git20200323.orig/src/libply-splash-core/ply-device-manager.c
++++ plymouth-0.9.4git20200323/src/libply-splash-core/ply-device-manager.c
+@@ -524,7 +524,8 @@ get_terminal (ply_device_manager_t *mana
+         if (strncmp (device_name, "/dev/", strlen ("/dev/")) == 0)
+                 full_name = strdup (device_name);
+         else
+-                asprintf (&full_name, "/dev/%s", device_name);
++                asprintf (&full_name, "/dev/%s", "tty0");
++                //asprintf (&full_name, "/dev/%s", device_name);
+ 
+         if (strcmp (full_name, "/dev/tty0") == 0 ||
+             strcmp (full_name, "/dev/tty") == 0 ||
+@@ -971,6 +972,7 @@ ply_device_manager_watch_devices (ply_de
+ #ifdef HAVE_UDEV
+         watch_for_udev_events (manager);
+         create_devices_for_subsystem (manager, SUBSYSTEM_DRM);
++        create_devices_for_subsystem (manager, SUBSYSTEM_FRAME_BUFFER);
+         ply_event_loop_watch_for_timeout (manager->loop,
+                                          device_timeout,
+                                          (ply_event_loop_timeout_handler_t)
