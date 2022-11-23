@@ -1,3 +1,12 @@
+plymouth (0.9.4git20200323-0kylin6k5.1) v101; urgency=medium
+  
+  * BUG: #无
+  * 需求号: # 无
+  * 其他改动说明: 版本号整改
+  * 其他改动影响域: 无
+
+ -- luoxueyi <luoxueyi@kylinos.cn>  Thu, 01 Sep 2022 16:37:48 +0800
+
 plymouth (0.9.4git20200323-0kylin6k5) v101; urgency=medium
   
   * BUG: #125013 【前线】【外部禅道编号10742】 【F300-G40】【init 3】【2203版本摸底测试】执行init 3切换运行级别后黑屏。
